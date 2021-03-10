@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from '../../styles/Home.module.css'
 import dynamic from "next/dynamic";
 
-const Giraffe = dynamic(() => import("../../components/Giraffe"), {
+const Giraffe = dynamic(() => import("../../components/giraffe.js"), {
   loading: () => <p>Loading...</p>
 });
 
