@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "4X2N");
+/******/ 	return __webpack_require__(__webpack_require__.s = "5MA/");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1840,7 +1840,7 @@ module.exports.default = module.exports; // For TypeScript
 
 /***/ }),
 
-/***/ "4X2N":
+/***/ "5MA/":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1928,11 +1928,11 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___n
         rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
         i18n: undefined,
         page: "/server-side",
-        buildId: "TsAoWMSiDU44lsap8UUSk",
-        escapedBuildId: "TsAoWMSiDU44lsap8UUSk",
+        buildId: "ltwEIUpedzgWxCeSibeyY",
+        escapedBuildId: "ltwEIUpedzgWxCeSibeyY",
         basePath: "",
         pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"3e43c835a1e4c3817196f1f85fd84d50",previewModeSigningKey:"1b0c5ee389ab11c15b021531501ee299388570b247136a5401bc8edc85292582",previewModeEncryptionKey:"ac7fcbb2f0eb6e5909e4c58fe0d33d41ef871dcdb4bbb3e38b226582859fedae"},
+        encodedPreviewProps: {previewModeId:"121b496272ac8a0f6f51a822890203b5",previewModeSigningKey:"296c9c0a2a3b003de7ff41bb918259226023f57307a9b067747a795bd1a30ea6",previewModeEncryptionKey:"4e6ee4a69daee29a20016c9502c2124955f90a57678c10537f20aa017fd63f18"},
         experimental: {
           onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
           initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -5138,7 +5138,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/TsAoWMSiDU44lsap8UUSk/_buildManifest.js\",\"static/TsAoWMSiDU44lsap8UUSk/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/index-dfa9405842a9229f785a.js\"],\"/_app\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.8951388c533440547438.js\",\"static/css/6e9ef204d6fd7ac61493.css\",\"static/chunks/pages/_app-a8f346fcfb1d7b5e53f6.js\"],\"/_error\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/chunks/pages/_error-39e89d87f4e399576838.js\"],\"/dynamic-loader\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/dynamic-loader-c3052ddd5ff7f764ba6e.js\"],\"/server-side\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/server-side-1b369a87b2e79943884e.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-8f31809deb7932dd0187.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/ltwEIUpedzgWxCeSibeyY/_buildManifest.js\",\"static/ltwEIUpedzgWxCeSibeyY/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/index-dfa9405842a9229f785a.js\"],\"/_app\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.8951388c533440547438.js\",\"static/css/6e9ef204d6fd7ac61493.css\",\"static/chunks/pages/_app-a8f346fcfb1d7b5e53f6.js\"],\"/_error\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/chunks/pages/_error-39e89d87f4e399576838.js\"],\"/dynamic-loader\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/dynamic-loader-c3052ddd5ff7f764ba6e.js\"],\"/server-side\":[\"static/chunks/main-eee083719f807726f096.js\",\"static/chunks/webpack-d954f15ba1d9f44e6b36.js\",\"static/chunks/framework.63dc705e84bab196a33c.js\",\"static/css/001cebd3ba1129c220c2.css\",\"static/chunks/pages/server-side-1b369a87b2e79943884e.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -15697,9 +15697,13 @@ function Page({
 } // This gets called on every request
 
 
-async function getServerSideProps() {
-  // Fetch data from external API
-  const res = await fetch(`http://localhost:3000/api/villains`);
+async function getServerSideProps({
+  req
+}) {
+  const protocol = req.headers['x-forwarded-proto'] || 'http';
+  const baseUrl = req ? `${protocol}://${req.headers.host}` : ''; // Fetch data from external API
+
+  const res = await fetch(baseUrl + `/api/villains`);
   const data = await res.json(); // Pass data to the page via props
 
   return {
