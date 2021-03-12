@@ -28,6 +28,20 @@
 .footer img {
   margin-left: 0.5rem;
 }
+.supervillainImage {
+  width: 400px;
+  margin-left: 50px;
+}
+
+.villainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.villainList {
+  margin-top: 100px;
+}
 
 .footer a {
   display: flex;

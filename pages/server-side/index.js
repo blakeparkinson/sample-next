@@ -3,13 +3,16 @@ import styles from '../../styles/Home.module.css'
 function Page({ data }) {
   return (
     <div className={styles.container}>
-      <div>Trending crypto coins</div>
-      {data.coins.map((coin)=>{
+      <h1>Worst Supervillains</h1>
+      {data.map((villain)=>{
         return(
-        <li key={coin.item.id}>
-          <span>{coin.item.name}</span>
-          <img src={coin.item.thumb}></img>
-        </li>
+        <ul className={styles.villainList} key={villain.name}>
+          <div className={styles.villainContainer}>
+            <span className={styles.title}>{villain.name}</span>
+            <img className={styles.supervillainImage}src={`../images/${villain.image}`}></img>
+          </div>
+          <div className={styles.description}><strong>Superpower: </strong>{villain.superpower}</div>
+        </ul>
         )
       })}
     </div>
@@ -19,8 +22,7 @@ function Page({ data }) {
 // This gets called on every request
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`https://api.coingecko.com/api/v3/search/trending
-`)
+  const res  = await fetch(`http://localhost:3000/api/villains`)
   const data = await res.json()
 
   // Pass data to the page via props

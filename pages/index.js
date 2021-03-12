@@ -8,10 +8,15 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello World
+          <div>
+            <a href="/server-side">Server side rendering example</a>
+          </div>
+          <div>
+            <a href="/dynamic-loader">Dynamic loader example</a>
+          </div>
         </h1>
       </main>
 
