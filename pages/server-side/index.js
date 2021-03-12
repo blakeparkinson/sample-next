@@ -20,9 +20,11 @@ function Page({ data }) {
 }
 
 // This gets called on every request
-export async function getServerSideProps() {
+export async function getServerSideProps({ req }) {
+  const protocol = req.headers['x-forwarded-proto'] || 'http'
+  const baseUrl = req ? `${protocol}://${req.headers.host}` : ''
   // Fetch data from external API
-  const res  = await fetch(`http://localhost:3000/api/villains`)
+  const res  = await fetch(baseUrl + `/api/villains`)
   const data = await res.json()
 
   // Pass data to the page via props

@@ -2,8 +2,8 @@
   "name": "7ufr0jf-uotwyv4",
   "arn": "arn:aws:iam::382444784838:role/7ufr0jf-uotwyv4",
   "service": [
-    "lambda.amazonaws.com",
-    "edgelambda.amazonaws.com"
+    "edgelambda.amazonaws.com",
+    "lambda.amazonaws.com"
   ],
   "policy": {
     "Version": "2012-10-17",
