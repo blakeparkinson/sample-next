@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <div>
-            <a href="/server-side">Server side rendering example</a>
+            <a href="/server-side">SSR example</a> | <a href="/ssg">SSG example</a>
           </div>
           <div>
             <a href="/dynamic-loader">Dynamic loader example</a>
