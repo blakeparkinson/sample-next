@@ -1,7 +1,7 @@
-import * as THREE from 'three';
+import * as THREE from '../public/three';
 // import { Stats } from 'three/examples/jsm/libs/stats.module.js';
-import { GUI } from 'three/examples/jsm/libs/dat.gui.module.js';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GUI } from '../public/three/examples/jsm/libs/dat.gui.module.js'
+import { GLTFLoader } from '../public/three/examples/jsm/loaders/GLTFLoader'
 import React, { Component } from "react";
 
 
