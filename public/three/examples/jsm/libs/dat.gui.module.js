@@ -2217,7 +2217,9 @@ function requestAnimationFrame( callback ) {
 	setTimeout( callback, 1000 / 60 );
 
 }
-var requestAnimationFrame$1 = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || requestAnimationFrame;
+if (typeof window !== "undefined"){
+	var requestAnimationFrame$1 = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || requestAnimationFrame;
+}
 
 var CenteredDiv = function () {
 
