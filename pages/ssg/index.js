@@ -4,10 +4,6 @@ import styles from '../../styles/Home.module.css'
 function Page() {
   const [villains, setVillains] = useState(null);
   const [error, setError] = useState(null);
-  // let req = new XMLHttpRequest()
-
-  // const protocol = req.headers['x-forwarded-proto'] || 'http'
-  // const baseUrl = req ? `${protocol}://${req.headers.host}` : ''
   useEffect(() => {
     (async function() {
       try {
