@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className={styles.title}>Our Great Next App
           <div>
             <a href="/server-side">SSR example</a> | <a href="/ssg">SSG example</a>
           </div>
