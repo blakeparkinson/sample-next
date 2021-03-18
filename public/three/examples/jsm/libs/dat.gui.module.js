@@ -2137,6 +2137,7 @@ function hueGradient( elem ) {
 
 var css = {
 	load: function load( url, indoc ) {
+		if (typeof document !== "undefined"){
 
 		var doc = indoc || document;
 		var link = doc.createElement( 'link' );
@@ -2144,9 +2145,11 @@ var css = {
 		link.rel = 'stylesheet';
 		link.href = url;
 		doc.getElementsByTagName( 'head' )[ 0 ].appendChild( link );
+		}
 
 	},
 	inject: function inject( cssContent, indoc ) {
+		if (typeof document !== "undefined"){
 
 		var doc = indoc || document;
 		var injected = document.createElement( 'style' );
@@ -2159,6 +2162,7 @@ var css = {
 
 		} catch ( e ) {
 		}
+	}
 
 	}
 };
@@ -2700,7 +2704,10 @@ GUI._keydownHandler = function ( e ) {
 	}
 
 };
-dom.bind( window, 'keydown', GUI._keydownHandler, false );
+if (typeof window !== "undefined"){
+
+	dom.bind( window, 'keydown', GUI._keydownHandler, false );
+}
 Common.extend( GUI.prototype,
 	{
 		add: function add( object, property ) {
