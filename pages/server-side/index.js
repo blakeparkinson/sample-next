@@ -31,7 +31,7 @@ export async function getServerSideProps({ req }) {
     const protocol = req.headers['x-forwarded-proto'] || 'http'
     const baseUrl = req ? `${protocol}://${req.headers.host}` : ''
     // Fetch data from external API
-    const res  = await fetch(baseUrl + `/api/villains`)
+    const res  = await fetch('https://sample-next-nine.vercel.app/api/villains')
     const data = await res.json()
 
     // Pass data to the page via props

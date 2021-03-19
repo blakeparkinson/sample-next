@@ -7,7 +7,7 @@ function Page() {
   useEffect(() => {
     (async function() {
       try {
-        const res = await fetch(`/api/villains`)
+        const res = await fetch(`https://sample-next-nine.vercel.app/api/villains`)
         const data = await res.json()
         setVillains(data)
       } catch (e){

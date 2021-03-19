@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{ZCmT:function(n,e,i){"use strict";i.r(e);var r=i("nKUr");e.default=function(){return Object(r.jsx)("img",{src:"../images/giraffe.png"})}}}]);
