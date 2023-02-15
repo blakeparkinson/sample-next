@@ -10,7 +10,6 @@ class Animation extends Component {
   componentDidMount() {
     let scene, renderer, camera, stats;
 			let model, skeleton, mixer, clock;
-
 			const crossFadeControls = [];
 
 			let idleAction, walkAction, runAction;
