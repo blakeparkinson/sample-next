@@ -3331,10 +3331,10 @@
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
 
-"three@*":
-  "integrity" "sha512-5C1MqKUWaHYo13BX0Q64qcdwImgnnjSOFgBscOzAo8MYCzEtqfQqorEKMcajnA3FHy1yVlIe9AmaMQ0OQracNA=="
-  "resolved" "https://registry.npmjs.org/three/-/three-0.150.1.tgz"
-  "version" "0.150.1"
+"three@^0.126.1":
+  "integrity" "sha512-eOEXnZeE1FDV0XgL1u08auIP13jxdN9LQBAEmlErYzMxtIIfuGIAZbijOyookALUhqVzVOx0Tywj6n192VM+nQ=="
+  "resolved" "https://registry.npmjs.org/three/-/three-0.126.1.tgz"
+  "version" "0.126.1"
 
 "timers-browserify@^2.0.4":
   "integrity" "sha512-9phl76Cqm6FhSX9Xe1ZUAMLtm1BLkKj2Qd5ApyWkXzsMRaA7dgr81kf4wJmQf/hAvg8EEyJxDo3du/0KlhPiKQ=="

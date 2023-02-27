@@ -12,6 +12,6 @@
     "next": "*",
     "react": "*",
     "react-dom": "*",
-    "three": "*"
+    "three": "^0.126.1"
   }
 }
