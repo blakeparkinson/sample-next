@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          This is our test app.
+          This is my test app.
           <div>
             <a href="/server-side">SSR example</a> |{" "}
             <a href="/ssg">SSG example</a>
